@@ -1,0 +1,87 @@
+* {
+    height: 0;
+    width: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 249, 209);
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+#ptop{
+    padding: 0px 30%;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(72, 104, 72);
+   
+}
+.elem{
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+   
+}
+.elem h4{
+    font-weight: 500;
+}
+
+.box{
+    padding: 10px 20px;
+    color: #117961;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    /* background-color: red; */
+}
+#pbtm{
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+.bubble{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(31, 61, 31);
+}
+
